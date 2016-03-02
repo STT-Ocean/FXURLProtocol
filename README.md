@@ -1,0 +1,2 @@
+# FXURLProtocol
+used for webViewCache
