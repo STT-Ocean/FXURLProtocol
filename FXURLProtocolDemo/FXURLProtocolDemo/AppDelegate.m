@@ -16,10 +16,8 @@
 
 @implementation AppDelegate
 
-
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
-    
     [NSURLProtocol registerClass:[FXURLProtocol class]];
     return YES;
 }
