@@ -25,6 +25,7 @@
      http://mall.fancyedu.com
      
      */
+//
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:@"http://mall.fancyedu.com/index.html?app=1"]];
     [webView loadRequest:request];
     

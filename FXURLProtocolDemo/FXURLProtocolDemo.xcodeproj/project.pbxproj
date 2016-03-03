@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B13C6BDF1C87EDA200CE064B /* FXURLProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13C6BDE1C87EDA200CE064B /* FXURLProtocol.framework */; };
 		B1CBE49E1C86F8AC00BBB8B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CBE49D1C86F8AC00BBB8B0 /* main.m */; };
 		B1CBE4A11C86F8AC00BBB8B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CBE4A01C86F8AC00BBB8B0 /* AppDelegate.m */; };
 		B1CBE4A41C86F8AC00BBB8B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CBE4A31C86F8AC00BBB8B0 /* ViewController.m */; };
@@ -16,6 +15,7 @@
 		B1CBE4AC1C86F8AC00BBB8B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1CBE4AA1C86F8AC00BBB8B0 /* LaunchScreen.storyboard */; };
 		B1CBE4B71C86F8AC00BBB8B0 /* FXURLProtocolDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CBE4B61C86F8AC00BBB8B0 /* FXURLProtocolDemoTests.m */; };
 		B1CBE4C21C86F8AC00BBB8B0 /* FXURLProtocolDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B1CBE4C11C86F8AC00BBB8B0 /* FXURLProtocolDemoUITests.m */; };
+		B1E0AF161C88552400A7346C /* FXURLProtocol.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B1E0AF151C88552400A7346C /* FXURLProtocol.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B13C6BDE1C87EDA200CE064B /* FXURLProtocol.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FXURLProtocol.framework; sourceTree = "<group>"; };
 		B1CBE4991C86F8AC00BBB8B0 /* FXURLProtocolDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FXURLProtocolDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CBE49D1C86F8AC00BBB8B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B1CBE49F1C86F8AC00BBB8B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		B1CBE4BD1C86F8AC00BBB8B0 /* FXURLProtocolDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FXURLProtocolDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CBE4C11C86F8AC00BBB8B0 /* FXURLProtocolDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FXURLProtocolDemoUITests.m; sourceTree = "<group>"; };
 		B1CBE4C31C86F8AC00BBB8B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1E0AF151C88552400A7346C /* FXURLProtocol.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FXURLProtocol.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B13C6BDF1C87EDA200CE064B /* FXURLProtocol.framework in Frameworks */,
+				B1E0AF161C88552400A7346C /* FXURLProtocol.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,7 +104,7 @@
 		B1CBE49B1C86F8AC00BBB8B0 /* FXURLProtocolDemo */ = {
 			isa = PBXGroup;
 			children = (
-				B1CBE4CF1C86F99000BBB8B0 /* FXURLProtocol */,
+				B1E0AF141C88551800A7346C /* FXURLProtocol */,
 				B1CBE49F1C86F8AC00BBB8B0 /* AppDelegate.h */,
 				B1CBE4A01C86F8AC00BBB8B0 /* AppDelegate.m */,
 				B1CBE4A21C86F8AC00BBB8B0 /* ViewController.h */,
@@ -144,10 +144,10 @@
 			path = FXURLProtocolDemoUITests;
 			sourceTree = "<group>";
 		};
-		B1CBE4CF1C86F99000BBB8B0 /* FXURLProtocol */ = {
+		B1E0AF141C88551800A7346C /* FXURLProtocol */ = {
 			isa = PBXGroup;
 			children = (
-				B13C6BDE1C87EDA200CE064B /* FXURLProtocol.framework */,
+				B1E0AF151C88552400A7346C /* FXURLProtocol.framework */,
 			);
 			path = FXURLProtocol;
 			sourceTree = "<group>";

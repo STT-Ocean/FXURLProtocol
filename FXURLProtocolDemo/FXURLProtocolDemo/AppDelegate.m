@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import <FXURLProtocol/FXURLProtocol.h>
+#import <FXURLProtocol/FXURLRegisetClass.h>
 
 @interface AppDelegate ()
 
@@ -18,6 +19,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
 
+    [FXURLRegisetClass shareInstance].isHeader = @"1";
     [NSURLProtocol registerClass:[FXURLProtocol class]];
     return YES;
 }

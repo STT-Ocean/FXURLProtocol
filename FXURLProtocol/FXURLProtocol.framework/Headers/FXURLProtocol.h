@@ -20,5 +20,6 @@
 
 @property (strong, nonatomic) NSOperationQueue * FXOperationQueue;
 
+@property (strong ,nonatomic )NSString *environment;
 
 @end
